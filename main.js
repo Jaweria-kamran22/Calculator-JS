@@ -1,5 +1,5 @@
 function writeTime() {
-  let time = document.getElementById("time").innerHTML;
+  let time = document.getElementById(".time").innerHTML;
   let today = new date();
   let time = today.getHours() + ":" + today.getMinutes();
   time = document.write(time);
@@ -9,7 +9,7 @@ function calcNumber(result) {
 }
 function percentage(result) {
   let result = String(result);
-  if (result1.includes("%")) {
+  if (result.includes("%")) {
     let a, b, percent;
     let splitWord = [];
     a = Number(splitWord[0]);
